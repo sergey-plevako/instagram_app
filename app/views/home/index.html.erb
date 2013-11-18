@@ -1,0 +1,14 @@
+  
+<% if current_user %>
+  Welcome <%= current_user.name %>!
+  <%= link_to "Sign Out", signout_path %>
+<% else %>
+  <%= link_to "Sign in with Instagram", "/auth/instagram" %>
+<% end %>
+
+  
+  <% @instagram.each do |instagram| %>
+
+    <%= image_tag instagram.images.standard_resolution.url %>
+
+    <% end %>
