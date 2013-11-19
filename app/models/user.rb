@@ -6,5 +6,9 @@ class User < ActiveRecord::Base
       user.name = auth["info"]["name"]
     end
   end
+  
+  def self.find_with_omniauth(auth)
+    find_by_provider_and_uid(auth['provider'], auth['uid'])
+  end
 
 end
