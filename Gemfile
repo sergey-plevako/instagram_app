@@ -49,6 +49,14 @@ gem 'instagram'
 gem 'omniauth-instagram'
 gem 'dotenv'
 
-gem "therubyracer"
+#gem "therubyracer", ">= 0.11.0.beta1"
+group :production do
+  gem 'therubyracer-heroku', :platform => :ruby
+end
+
+group :development, :test do
+  #gem 'therubyracer', ">= 0.11.0beta1", :platform => :ruby
+end
+
 gem "less-rails" 
 gem "twitter-bootstrap-rails", "~> 2.2.8"
