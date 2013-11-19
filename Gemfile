@@ -60,4 +60,4 @@ end
 
 #gem "less-rails" 
 #gem "twitter-bootstrap-rails", "~> 2.2.8"
-gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git', :branch => 'static'
+gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
