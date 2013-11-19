@@ -58,5 +58,6 @@ group :development, :test do
   #gem 'therubyracer', ">= 0.11.0beta1", :platform => :ruby
 end
 
-gem "less-rails" 
-gem "twitter-bootstrap-rails", "~> 2.2.8"
+#gem "less-rails" 
+#gem "twitter-bootstrap-rails", "~> 2.2.8"
+gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git', :branch => 'static'
