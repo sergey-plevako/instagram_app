@@ -5,6 +5,8 @@ Instagram.configure do |config|
   config.access_token = "686493004.59c859c.1de4372b38bb458b8d4dcf6072dbeb35"
 end
 
+CALLBACK_URL = "http://localhost:3000/users/auth/instagram/callback"
+
 OmniAuth.config.logger = Rails.logger
 
 Rails.application.config.middleware.use OmniAuth::Builder do
