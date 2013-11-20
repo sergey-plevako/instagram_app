@@ -12,3 +12,16 @@
     <%= image_tag instagram.images.standard_resolution.url %>
 
     <% end %>
+    
+    
+<ul>
+  <% @tags.each do |t| %>
+    <div>
+   	<% unless t.caption.blank? %>
+  		<%= t.caption.text %>
+	<% end %>
+    <%= image_tag t.images.standard_resolution.url %>
+    </div>
+  <% end %>
+</ul>
+    
