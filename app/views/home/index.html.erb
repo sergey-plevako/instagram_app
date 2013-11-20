@@ -6,7 +6,6 @@
   <%= link_to "Sign in with Instagram", "/auth/instagram" %>
 <% end %>
 
-  
   <% @instagram.each do |instagram| %>
 
     <%= image_tag instagram.images.standard_resolution.url %>
@@ -24,4 +23,5 @@
     </div>
   <% end %>
 </ul>
+
     
