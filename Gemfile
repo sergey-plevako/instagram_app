@@ -63,3 +63,4 @@ end
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'will_paginate', '~> 3.0'
 gem 'spaghetti'
+gem "actionpack-action_caching", github: "rails/actionpack-action_caching"

@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/rails/actionpack-action_caching.git
+  revision: a45e97298f6a77a4d74662521715d5656b821f24
+  specs:
+    actionpack-action_caching (1.1.0)
+      actionpack (>= 4.0.0, < 5.0)
+
+GIT
   remote: git://github.com/seyhunak/twitter-bootstrap-rails.git
   revision: 4b8a511e65181e28fd3caecdcf5ba730f4afe2b1
   specs:
@@ -177,6 +184,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  actionpack-action_caching!
   capistrano
   capistrano-rails
   coffee-rails (~> 4.0.0)
