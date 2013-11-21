@@ -61,3 +61,5 @@ end
 #gem "less-rails" 
 #gem "twitter-bootstrap-rails", "~> 2.2.8"
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+gem 'will_paginate', '~> 3.0'
+gem 'spaghetti'
